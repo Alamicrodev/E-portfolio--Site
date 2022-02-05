@@ -295,6 +295,7 @@ li {
 .languages .languages__list li {
   color: #fff;
   height: 5em;
+  opacity: 0;
 }
 
 .languages .languages__list li:nth-child(2) {
@@ -337,6 +338,7 @@ li {
   background: var(--backgroundcalor);
   border-radius: 5px;
   box-shadow: 2px 2px 9px black;
+  opacity: 0;
 }
 
 .card .card__img {
