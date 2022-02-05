@@ -30,14 +30,14 @@ function onScroll() {
   languages.forEach((language) => {
     if (language.getBoundingClientRect().top < viewPortHeight)  
      {
-        language.style.animation = "hero 800ms ease-in-out backwards"
+        language.style.animation = "hero 800ms ease-in-out forwards"
      }
   })
 
   projects.forEach((project) => {
     if(project.getBoundingClientRect().top < viewPortHeight)
     {
-      project.style.animation = "hero 800ms ease-in-out backwards"
+      project.style.animation = "hero 800ms ease-in-out forwards"
     }
   })
   
