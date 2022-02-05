@@ -313,7 +313,7 @@ li {
 }
 
 .projects .container {
-  padding: 30px 40px;
+  padding: 30px 20px;
 }
 
 .projects .container h2 {
@@ -440,6 +440,7 @@ li {
   margin-right: 0px;
   width: 100%;
   border-radius: 4px;
+  border: none;
 }
 
 .contactme .container .form .formcontrol input:focus {
@@ -451,6 +452,7 @@ li {
   font-size: 20px;
   display: block;
   width: 100%;
+  border: none;
   border-radius: 4px;
 }
 
