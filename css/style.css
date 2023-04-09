@@ -182,6 +182,22 @@ li {
 	margin-bottom: 20px;
 }
 
+.hero_section article .socialbar a {
+	text-decoration: none;
+
+}
+
+
+.hero_section article .socialbar a:visited {
+	text-decoration: none;
+}
+
+
+.hero_section article .socialbar a:hover {
+	text-decoration: none;
+	color: transparent;
+}
+
 .hero_section article .socialbar i {
 	font-size: 40px;
 	cursor: pointer;
