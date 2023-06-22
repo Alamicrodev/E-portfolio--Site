@@ -6,13 +6,14 @@ const javaScript = document.getElementById('js__icon');
 const react = document.getElementById('react__icon');
 const python = document.getElementById('python__icon');
 const django = document.getElementById('django__icon');
+const nodejs = document.getElementById('nodejs__icon');
 const pgsql = document.getElementById('pgsql__icon');
 
 const viewPortHeight = document.documentElement.clientHeight;
 
 document.addEventListener('scroll', onScroll);
 
-const languages = [html5, css3, javaScript, react, python, django, pgsql]
+const languages = [html5, css3, javaScript, react, python, django, pgsql, nodejs]
 
 // Projects 
 
