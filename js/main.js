@@ -8,12 +8,13 @@ const python = document.getElementById('python__icon');
 const django = document.getElementById('django__icon');
 const nodejs = document.getElementById('nodejs__icon');
 const pgsql = document.getElementById('pgsql__icon');
+const mongodb = document.getElementById('mongodb__icon');
 
 const viewPortHeight = document.documentElement.clientHeight;
 
 document.addEventListener('scroll', onScroll);
 
-const languages = [html5, css3, javaScript, react, python, django, pgsql, nodejs]
+const languages = [html5, css3, javaScript, react, python, django, pgsql, nodejs, mongodb]
 
 // Projects 
 
